@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background: #080808;
+    background: #659dbd;
     color: #fff;
 }
 
@@ -75,7 +75,6 @@ nav{
 /* ---------about---------- */
 #about{
     padding: 80px 0;
-    color:#ababab;
 }
 .row{
     display: flex;
@@ -126,8 +125,10 @@ nav{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
+    color: #daad86;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 .tab-contents{
     display: none;
@@ -148,7 +149,7 @@ nav{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #daad86;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -168,8 +169,8 @@ nav{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
-    transform: translateY(-10px);
+    background: #8d8741;
+    transform: translateX(10px) translateY(-10px);
 }
 /*---------------portfolio-----------------*/
 #portfolio{
@@ -200,9 +201,12 @@ nav{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #daad86;
     padding: 14px 50px;
     border-radius: 6px;
+    text-decoration: none;
+    background: #daad86;
+    color: #262626;
 }
 /*---------------contact--------------------- */
 .contact-left{
@@ -216,7 +220,7 @@ nav{
     margin-top: 30px;
 }
 .contact-left p i {
-    color: #ff004f;
+    color: #daad86;
     margin-right: 15px;
     font-size: 25px;
 }.social-icons{
@@ -231,12 +235,12 @@ nav{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
-    transform: translateY(-5px);
+    color: #daad86;
+    transform: translateX(5px) translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #daad86;
 }
 .contact-right form{
     width: 100%;
@@ -262,7 +266,6 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    background: #080808;
     color: #262626;
     margin-top: 10px;
 }
@@ -287,7 +290,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #daad86;
         position: fixed;
         top: 0;
         right: -200px;
